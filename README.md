@@ -113,12 +113,13 @@ The waveform should agree with the truth table.
  
 ### Expected Result
 The Boolean function
-F(A,B)=Σm(0,1,3), which simplifies to F=B'D'+BD.
+F(A,B)=Σm(0,1,3), which simplifies to F=A'+B.
 was minimized to F=A'+B.
 and successfully implemented using Verilog HDL.
 
 ## OUTPUT
-https://img.sanishtech.com/u/1b5a1bd5c61b4a6504bba7aac9ac9944.jpeg
+<img width="1600" height="848" alt="WhatsApp Image 2026-11-05 at 11 33 16 AM (2)" src="https://github.com/user-attachments/assets/5c74e8c0-ecc2-474c-a9b4-6c42d773f292" />
+
 
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis.
